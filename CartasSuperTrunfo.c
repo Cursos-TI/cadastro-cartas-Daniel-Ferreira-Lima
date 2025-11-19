@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países - Novato
+// Desafio Super Trunfo - Países - Novato//
 
 int main() {
 
