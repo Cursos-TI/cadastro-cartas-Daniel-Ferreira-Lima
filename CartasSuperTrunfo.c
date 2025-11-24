@@ -13,6 +13,8 @@ int populacao;
 float area;
 float pib;
 int NPT;  //NPT = Número de pontos turisticos//
+float DP;
+float pibpercapita;
 
 // Declaração de variáveis da Carta B//
 char Estado2;
@@ -22,6 +24,8 @@ int populacao2;
 float area2;
 float pib2;
 int NPT2; //NPT2 = Números de pontos turisticos
+float DP2;
+float pibpercapita2;
 
 // Leitura de valores da carta A//
 printf("Insira os valores da carta 1 abaixo:");
@@ -46,6 +50,9 @@ scanf("%f", &pib);
 
 printf("NPT: ");
 scanf("%d", &NPT);
+//Calculando a Densidade Populacional e PIB per capita. Carta 1//
+DP = (float) populacao/area;
+pibpercapita = (float) pib/populacao;
 
 // Impressão da carta A//
 printf("\nCarta 1:\n");
@@ -56,6 +63,8 @@ printf("Populacao: %d\n", populacao);
 printf("Área: %.2f km²\n", area);
 printf("PIB: %.2f bilhões de reais\n", pib);
 printf("Número de pontos turisticos: %d\n", NPT);
+printf("Densidade populacional: %.2f hab/km²\n", DP);
+printf("PIB per capita: %.2f reais\n", pibpercapita);
 
 // Leitura da carta B//
 printf("\nInsira os valores da carta 2 abaixo:");
