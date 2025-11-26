@@ -117,6 +117,8 @@ printf("PIB per capita: %.2f reais\n", pibpercapita2);
 
 //COMPARAÇÃO DAS CARTAS//
 
+
+
 printf("COMPARAÇÃO DAS CARTAS:\n");
 printf("População: %d\n", populacao > populacao2);
 printf("Área: %d\n", area > area2);
